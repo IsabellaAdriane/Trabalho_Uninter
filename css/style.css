@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(234, 235, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px solid rgb(175, 62, 62);
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.quadro1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    margin:auto;
+    background-color: rgb(218, 108, 108);
+    color: white;
+    border-radius: 5px 10px 15px 20px;
+}
+
+#quadro2{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(218, 108, 108);
+    color: white;
+}
+
+.caixa {
+    display: flex;
+    align-items: flex-start;
+    gap: 300px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+    color: white;
+    background-color: rgb(218, 108, 108);
+    width: 200px;
+    border-radius: 10%;
+
+    padding: 10px;
+}
+
+#imagem2{
+    border-radius: 10%;
+
+}
+
+
+#tabela{
+    border: 1px solid rgb(218, 108, 108);
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(218, 108, 108);
+    text-align: center;
+    color: white;
+    border-collapse: collapse;
+}
+
+
+#tabela th, #tabela td {
+    border: 1px solid rgb(175, 62, 62); 
+    padding: 10px;
+    border-radius: 10%;
+}
+.imagem{
+    border-radius: 10%;
+}
+#botao{
+    background-color: rgb(175, 62, 62);
+    color: white;
+    border-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px 20px;
+}
+#link{
+    background-color: rgb(218, 108, 108);
+    width: 200px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
